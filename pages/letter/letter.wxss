@@ -1,0 +1,49 @@
+/* letter.wxss */
+
+
+.inputView{
+    
+    border:  2px solid;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+
+.prop-container {
+    margin-top: 50rpx;
+}
+
+.content-container {
+    background: #fff;
+    padding-bottom: 100rpx;
+}
+
+.content-content {
+    padding: 0 30rpx;
+    margin-top: 50rpx;
+}
+
+.content-input {
+    color: #000;
+    line-height: 55rpx;
+    font-size: 34rpx;
+    z-index: 1;
+    width:100%;
+}
+
+.warning{
+  color: red;
+  font-size: 34rpx;
+  margin-left: 200rpx
+
+
+}
+
+.section{
+  margin-top: 30rpx
+}
+
+

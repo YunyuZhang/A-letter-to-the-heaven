@@ -1,0 +1,23 @@
+<!--info.wxml-->
+<view style= "margin-top: 60rpx; margin-left: 50rpx"> 逝者姓名 </view>
+<view class="inputView" >
+  <input class= "input" placeholder="请输入姓名" bindinput="nameInput" />
+</view>
+
+<view style= "margin-top: 50rpx; margin-left: 50rpx">出生日期 </view>
+<view class="inputView" >
+  <input class= "input" placeholder="格式为：YYYY/MM/DD" bindinput="birthdayInput" />
+</view>
+
+<view style= "margin-top: 50rpx; margin-left: 50rpx">逝世日期 </view>
+<view class="inputView" >
+  <input class= "input" placeholder="格式为：YYYY/MM/DD" bindinput="dodInput" />
+</view>
+
+<view style= "margin-top: 50rpx; margin-left: 50rpx">与逝者关系 </view>
+<view class="inputView" >
+  <input class= "input" bindinput="relationInput"/>
+</view>
+
+
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 100rpx; border-radius: 40rpx" type="primary" bindtap="listenerLogin">开始写信</button>

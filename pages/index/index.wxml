@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+
+<!-- <image style="width: 20px; height: 50px;" class="image_frame" src="{{imageUrl}}">
+</image> -->
+
+  <view class= "appname">
+
+  天堂信往
+
+  </view>
+  
+   
+    <view class= "entrance" id="tapTest" data-hi="WeChat" bindtap="tapName"> 信件入口 </view>
+    </view>
+
+  <button style="margin-top:100rpx" size="mini" plain="true" bindtap="memorial">扉页</button>
+  

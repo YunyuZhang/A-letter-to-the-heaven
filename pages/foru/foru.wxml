@@ -1,0 +1,11 @@
+<!--foru.wxml-->
+
+
+
+<view class="image">
+<image class="image_frame" src="{{imageUrl}}" mode="aspectFit">
+</image>
+
+</view>
+
+

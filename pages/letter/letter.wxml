@@ -1,0 +1,30 @@
+<!--letter.wxml-->
+
+ 
+ <view class="inputView">
+    <text style= "margin-left: 20px">致亲爱的：</text>
+ <input type="text" style="padding-left: 30px" />
+</view>
+
+<!--<view class="box">
+
+<input type="text" placeholder= "点击输入文字" auto-focus />
+
+
+</view>-->
+
+
+<view class="section">
+  <textarea maxlength="-1" bindinput="contentInput" placeholder="请在此输入正文" />
+</view>
+
+
+    
+
+  
+<!--// 后套缓存-->
+
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 400rpx; border-radius: 40rpx" type="primary" bindtap="saveText">提交</button>
+<text class="warning">提交后内容将不能查看</text>
+
+

@@ -1,0 +1,8 @@
+/* foru.wxss */
+
+.image{
+  margin-top:200rpx;
+  margin-left:50rpx
+
+
+}

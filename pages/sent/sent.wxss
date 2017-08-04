@@ -1,0 +1,8 @@
+/* sent.wxss */
+
+.send {
+  margin-top: 100rpx;
+  margin-left:50rpx
+
+
+}

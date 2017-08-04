@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/input/input",
+    "pages/info/info",
+    "pages/letter/letter",
+    "pages/textarea/textarea",
+    "pages/sent/sent",
+    "pages/foru/foru"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
